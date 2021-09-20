@@ -1,0 +1,141 @@
+stackbitVersion: ~0.3.0
+ssgName: nextjs
+nodeVersion: '12'
+publishDir: out
+dataDir: contracts
+models:
+  erc_20:
+    type: data
+    label: Erc 20
+    file: ERC20.json
+    isList: true
+    items:
+      type: model
+      models:
+        - object_8vs8424n8d
+        - object_dc6ci9exun
+  object_2raplm8v4d:
+    type: object
+    label: Object 1
+    fields: []
+  object_2e6f51y1jy:
+    type: object
+    label: Object 2
+    fields:
+      - type: string
+        name: name
+        label: Name
+      - type: string
+        name: type
+        label: Type
+  object_jtoy2e3qui:
+    type: object
+    label: Object 3
+    fields:
+      - type: string
+        name: name
+        label: Name
+      - type: string
+        name: type
+        label: Type
+  object_pbtxz96ehf:
+    type: object
+    label: Object 4
+    fields:
+      - type: string
+        name: name
+        label: Name
+      - type: string
+        name: type
+        label: Type
+  object_ma9piweqph:
+    type: object
+    label: Object 5
+    fields:
+      - type: string
+        name: name
+        label: Name
+      - type: string
+        name: type
+        label: Type
+  object_07esdqegyd:
+    type: object
+    label: Object 6
+    fields:
+      - type: string
+        name: name
+        label: Name
+      - type: string
+        name: type
+        label: Type
+  object_8vs8424n8d:
+    type: object
+    label: Object 7
+    fields:
+      - type: boolean
+        name: constant
+        label: Constant
+      - type: list
+        name: inputs
+        label: Inputs
+        items:
+          type: model
+          models:
+            - object_2raplm8v4d
+            - object_2e6f51y1jy
+            - object_jtoy2e3qui
+            - object_pbtxz96ehf
+            - object_ma9piweqph
+            - object_07esdqegyd
+      - type: string
+        name: name
+        label: Name
+      - type: list
+        name: outputs
+        label: Outputs
+        items:
+          type: object
+          fields:
+            - type: string
+              name: name
+              label: Name
+            - type: string
+              name: type
+              label: Type
+      - type: boolean
+        name: payable
+        label: Payable
+      - type: string
+        name: stateMutability
+        label: State Mutability
+      - type: string
+        name: type
+        label: Type
+  object_dc6ci9exun:
+    type: object
+    label: Object 8
+    fields:
+      - type: boolean
+        name: anonymous
+        label: Anonymous
+      - type: list
+        name: inputs
+        label: Inputs
+        items:
+          type: object
+          fields:
+            - type: boolean
+              name: indexed
+              label: Indexed
+            - type: string
+              name: name
+              label: Name
+            - type: string
+              name: type
+              label: Type
+      - type: string
+        name: name
+        label: Name
+      - type: string
+        name: type
+        label: Type
